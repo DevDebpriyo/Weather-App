@@ -1,16 +1,75 @@
-# weather_app
+<div align="center">
+  <img src="https://img.icons8.com/color/96/000000/partly-cloudy-day--v1.png" width="80"/>
+  <h1>Weather App</h1>
+  <p>A minimal, beautiful Flutter app for real-time weather updates based on your location.</p>
+</div>
 
-A new Flutter project.
+---
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- 🌍 Detects your current city automatically (with location permission)
+- ☀️ Shows real-time temperature and weather condition
+- 🎨 Minimal, modern UI with animated weather icons (Lottie)
+- 📍 Pin icon highlights your city
+- 🌑 Dark background for a sleek look
+- 🔤 Custom font for a unique feel
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📱 Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<!-- Add screenshots here if available -->
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository:**
+	```bash
+	git clone https://github.com/DevDebpriyo/Weather-App.git
+	cd Weather-App
+	```
+2. **Install dependencies:**
+	```bash
+	flutter pub get
+	```
+3. **Add your OpenWeatherMap API key:**
+	- Edit `lib/services/weather_service.dart` and replace the API key with your own if needed.
+4. **Run the app:**
+	```bash
+	flutter run
+	```
+
+---
+
+## 🛠️ Project Structure
+
+- `lib/`
+  - `main.dart` — App entry point
+  - `models/` — Weather data model
+  - `pages/` — Main weather UI
+  - `services/` — Location and weather API logic
+- `assets/` — Lottie weather animations & fonts
+
+---
+
+## 📦 Dependencies
+
+- [Flutter](https://flutter.dev/)
+- [Lottie](https://pub.dev/packages/lottie)
+- [Geolocator](https://pub.dev/packages/geolocator)
+- [Geocoding](https://pub.dev/packages/geocoding)
+- [HTTP](https://pub.dev/packages/http)
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+---
+
+<div align="center">
+  <sub>Made with ❤️ using Flutter</sub>
+</div>
